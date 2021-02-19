@@ -11,7 +11,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $TODO_LIST
+  github_token: TODO_LIST
   local_dir: build
   keep_history: true
   on:
